@@ -1,0 +1,14 @@
+{
+	"manifest_version":2,
+	"name": "Youtube Video Downloader",
+	"description": "This extension will download all videos from a single YouTube Channel to your computer",
+	"version": "1.0",
+	
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+		"activeTab"
+	]
+}
